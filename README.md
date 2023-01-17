@@ -8,13 +8,13 @@ run "python run_nextgcn_ml.py" directly
 
 |Parameter |Description|
 |  ------  |   ------  |
-|embedding_size|64|
+|embedding\_size|64|
 | USER\_ID\_FIELD|Specifies the user id field|
 |ITEM\_ID\_FIELD|Specifies the user id field|
 |RATING\_FIELD|Specify the rating field|
 |load\_col|Specifies the column name|
 |epoches|$500$, maximum epoch of training|
-|train\_batch\_size|4096$, batchsize for training|
+|train\_batch\_size|$4096$, batchsize for training|
 |learner|Adam, optimizer|
 |learning\_rate| $0.001$, learning rate|
 |neg\_sample\_num |$1$, number of negative samples|
